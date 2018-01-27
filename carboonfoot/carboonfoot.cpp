@@ -11,35 +11,35 @@
 
 int main()
 {
-	vector<carbonFootprint> theWorld;
+	//create object of pointers of carbon footprints 
+	vector<carbonFootprint*> theWorld;
 
+	//make the objects 
 	car fastcar("Red","BMW" , 122);
 	building bigbuilding(3,2,1);
+	bicycle poshbike("Silver", "Bordman", 62);
+
+	// set addresses of objects 
 	carbonFootprint * carbon1 = &fastcar;
-	
 	carbonFootprint * carbon2 = &bigbuilding;
+	carbonFootprint * carbon3 = &poshbike;
 
-	//theWorld.push_back(*carbon1);
-	//theWorld.push_back(*carbon2);
+	//push addresses to the vector of objects 
+	theWorld.push_back(carbon1);
+	theWorld.push_back(carbon2);
+	theWorld.push_back(carbon3);
 
-	int theCarbon;
+	
 
-	//for (unsigned i = 0; i<theWorld.size(); i++)
-	//{
-	//	theWorld.at(i) = theCarbon->getCarbonFootprint();
-	//
-	//}
+	//get the carbon footprint values printed to screen
+	for (unsigned i = 0; i<theWorld.size(); i++)
+	{
 		
+		cout << theWorld.at(i)->getCarbonFootprint()<< '\n';
+	
+	}
 
 
-
-	//carbon1->set_values(4, 5);
-	//carbon2->set_values(4, 5);
-	cout << carbon1->getCarbonFootprint()<< '\n';
-	cout << carbon2->getCarbonFootprint() << '\n';
-
-	getchar();
-	getchar();
 	getchar();
 
     return 0;
