@@ -14,7 +14,9 @@ public:
 	carbonFootprint(int size_of_carbon_footprint);
 
 
-	int getCarbonFootprint();
+	//int getCarbonFootprint();
+	//pure virtual function this class would not be able to be made  
+	virtual int getCarbonFootprint() = 0; 
 
 protected: 
 
