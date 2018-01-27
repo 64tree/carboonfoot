@@ -15,6 +15,7 @@ public:
 	car() {}
 	car(string colour, string make, int top_speed);
 
+	virtual int getCarbonFootprint();
 
 protected:
 	string colour;

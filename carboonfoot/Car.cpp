@@ -12,3 +12,8 @@ car::car(string colour, string make, int top_speed):carbonFootprint(size_of_carb
 
 }
 
+int car::getCarbonFootprint()
+{
+
+	return size_of_carbon_footprint;
+}

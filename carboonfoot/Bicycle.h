@@ -16,7 +16,7 @@ public:
 	bicycle(){}
 	bicycle(string colour, string make, int no_of_gears);
 
-	//virtual int getCarbonFootprint() ;
+	virtual int getCarbonFootprint() ;
 
 protected:
 	string colour;

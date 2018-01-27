@@ -16,6 +16,8 @@ public:
 	building() {}
 	building(int floors, int windows , int sq_foot);
 
+	virtual int getCarbonFootprint();
+
 protected:
 	int floors;
 	int windows;

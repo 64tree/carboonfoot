@@ -13,3 +13,8 @@ building::building(int floors, int windows, int sq_foot):carbonFootprint(size_of
 
 }
 
+int building::getCarbonFootprint()
+{
+
+	return size_of_carbon_footprint;
+}

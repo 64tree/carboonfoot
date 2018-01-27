@@ -12,3 +12,9 @@ bicycle::bicycle(string colour, string make, int no_of_gears) :carbonFootprint(s
 	this->no_of_gears = no_of_gears;
 
 }
+
+int bicycle::getCarbonFootprint()
+{
+	return size_of_carbon_footprint;
+}
+
