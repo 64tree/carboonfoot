@@ -13,8 +13,8 @@ class bicycle
 
 public:
 	// constructors
-	bicycle();
-	~bicycle();
+	bicycle(){}
+	bicycle(string colour, string make, int no_of_gears);
 
 protected:
 	string colour;

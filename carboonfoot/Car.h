@@ -12,8 +12,9 @@ class car
 
 public:
 	// constructors
-	car();
-	~car();
+	car() {}
+	car(string colour, string make, int top_speed);
+
 
 protected:
 	string colour;

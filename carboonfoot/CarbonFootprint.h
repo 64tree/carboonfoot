@@ -6,13 +6,20 @@ using namespace std;
 
 class carbonFootprint
 {
-private:
 
 
 public:
 	// constructors
-	carbonFootprint();
-	~carbonFootprint();
+	carbonFootprint() {}  // default constructor
+	carbonFootprint(int size_of_carbon_footprint);
+
+
+	int getCarbonFootprint();
+
+protected: 
+
+	int size_of_carbon_footprint;
+
 
 
 };

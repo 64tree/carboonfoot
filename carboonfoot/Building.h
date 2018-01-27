@@ -13,8 +13,8 @@ class building
 
 public:
 	// constructors
-	building();
-	~building();
+	building() {}
+	building(int floors, int windows , int sq_foot);
 
 protected:
 	int floors;
