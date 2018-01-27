@@ -145,10 +145,18 @@
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Bicycle.h" />
+    <ClInclude Include="Building.h" />
+    <ClInclude Include="Car.h" />
+    <ClInclude Include="CarbonFootprint.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Bicycle.cpp" />
+    <ClCompile Include="Building.cpp" />
+    <ClCompile Include="Car.cpp" />
+    <ClCompile Include="CarbonFootprint.cpp" />
     <ClCompile Include="carboonfoot.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
